@@ -27,3 +27,4 @@ cursor.com
 cursor.sh
 claude.com
 xyz.com
+gitlab.com
