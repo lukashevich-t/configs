@@ -30,4 +30,3 @@ xyz.com
 gitlab.com
 qualtrics.com
 lostfilm.download
-copilot.microsoft.com
