@@ -30,3 +30,4 @@ xyz.com
 gitlab.com
 qualtrics.com
 lostfilm.download
+downloadly.ir
