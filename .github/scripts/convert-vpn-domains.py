@@ -24,13 +24,18 @@ def generate_autoproxy_domains(domains: list[str]) -> str:
 def generate():
     domains = set()
 
-    # Собираем все домены из файлов vpn-domains-*.txt
-    files = glob.glob("data/vpn-domains-*.txt")
+    files = sorted(glob.glob("data/vpn-domains-*.txt"))
     for file_path in files:
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 domain = line.strip()
-                if domain and not domain.startswith("#"):
+                if not domain or domain.startswith("#"):
+                    continue
+                if domain.startswith("!"):
+                    excluded = domain[1:].strip()
+                    if excluded:
+                        domains.discard(excluded)
+                else:
                     domains.add(domain)
 
     domains: list[str] = sorted(domains)  # отсортированный список уникальных доменов

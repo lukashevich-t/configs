@@ -34,3 +34,5 @@ lostfilm.download
 downloadly.ir
 msfree.su
 n8n.cloud
+#исключим инстаграм, он меня через VPN почему-то не пускает:
+!instagram.com
