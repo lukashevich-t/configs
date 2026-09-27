@@ -1,0 +1,15 @@
+#исключим инстаграм, он меня через VPN почему-то не пускает:
+!cdninstagram.com
+!connect.facebook.net
+!facebook.com
+!fb.com
+!fbcdn.net
+!fbsbx.com
+!ig.me
+!igsonar.com
+!instagram.com
+!oculuscdn.com
+!threads.com
+!threads.net
+!whatsapp.net
+# конец исключений инстаграм
