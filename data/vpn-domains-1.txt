@@ -286,7 +286,7 @@ graph.org
 graty.me
 graylog.org
 grok.com
-# groq.com
+groq.com
 groupon.com
 guilded.gg
 gulagu.net
