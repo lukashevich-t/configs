@@ -21,6 +21,7 @@ flibusta.site
 # github.com
 # githubusercontent.com
 # gitlab.com
+jaspersoft.com
 jetbrains.com
 lostfilm.download
 msfree.su
